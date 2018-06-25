@@ -657,137 +657,137 @@ jQuery(document).ready(function($){
 	// });
 
 	// Post Slider
-	$(".property-compare-wrapper").slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		dots: false,
-		responsive: [
-		{
-			breakpoint: 2000,
-			settings: "unslick"
-		},
-		{
-			breakpoint: 920,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				arrows: false,
-				dots: true
-			}
-		}
-		]
-	});
+	// $(".property-compare-wrapper").slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	arrows: false,
+	// 	dots: false,
+	// 	responsive: [
+	// 	{
+	// 		breakpoint: 2000,
+	// 		settings: "unslick"
+	// 	},
+	// 	{
+	// 		breakpoint: 920,
+	// 		settings: {
+	// 			slidesToShow: 1,
+	// 			slidesToScroll: 1,
+	// 			arrows: false,
+	// 			dots: true
+	// 		}
+	// 	}
+	// 	]
+	// });
 
 	// Post Slider
-	$(".secondary-slider").slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		dots: false,
-		asNavFor: '.secondary-slider-nav',
-		responsive: [
-		{
-			breakpoint: 480,
-			settings: {
-				dots: true,
-				fade: false
-			}
-		}
-		]
-	});
+	// $(".secondary-slider").slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	arrows: false,
+	// 	dots: false,
+	// 	asNavFor: '.secondary-slider-nav',
+	// 	responsive: [
+	// 	{
+	// 		breakpoint: 480,
+	// 		settings: {
+	// 			dots: true,
+	// 			fade: false
+	// 		}
+	// 	}
+	// 	]
+	// });
 
 	// Post Slider Navigation
-	$(".secondary-slider-nav").slick({
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		asNavFor: '.secondary-slider',
-		dots: false,
-		arrows: false,
-		focusOnSelect: true,
-	});
+	// $(".secondary-slider-nav").slick({
+	// 	slidesToShow: 4,
+	// 	slidesToScroll: 1,
+	// 	asNavFor: '.secondary-slider',
+	// 	dots: false,
+	// 	arrows: false,
+	// 	focusOnSelect: true,
+	// });
 
 	// Single Property Slider
-	$(".property-slider").slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		dots: false,
-		asNavFor: '#property-slider-nav',
-	});
+	// $(".property-slider").slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	arrows: false,
+	// 	dots: false,
+	// 	asNavFor: '#property-slider-nav',
+	// });
 
 	// Single Property Slider Navigation
-	$(".property-slider-nav").slick({
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		asNavFor: '#property-slider',
-		dots: false,
-		focusOnSelect: true,
-		centerMode: true,
-		responsive: [
-		{
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 3,
-			}
-		}
-		]
-	});
+	// $(".property-slider-nav").slick({
+	// 	slidesToShow: 5,
+	// 	slidesToScroll: 1,
+	// 	asNavFor: '#property-slider',
+	// 	dots: false,
+	// 	focusOnSelect: true,
+	// 	centerMode: true,
+	// 	responsive: [
+	// 	{
+	// 		breakpoint: 768,
+	// 		settings: {
+	// 			slidesToShow: 3,
+	// 		}
+	// 	}
+	// 	]
+	// });
 
 	// Main Slider
-	$(".featured-property-slider").slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		dots: false,
-		autoplay: true,
-		autoplaySpeed: 7000,
-		pauseOnHover: true,
-	});
+	// $(".featured-property-slider").slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	dots: false,
+	// 	autoplay: true,
+	// 	autoplaySpeed: 7000,
+	// 	pauseOnHover: true,
+	// });
 
 	// Product Slider
-	$(".product-slider").slick({
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		prevArrow: $(".slide-left"),
-		nextArrow: $(".slide-right"),
-		dots: false,
-		autoplay: true,
-		autoplaySpeed: 7000,
-		pauseOnHover: true,
-		responsive: [
-		{
-			breakpoint: 992,
-			settings: {
-				slidesToShow: 3
-			}
-		},
-		{
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 2
-			}
-		},
-		{
-			breakpoint: 480,
-			settings: {
-				slidesToShow: 1
-			}
-		},
-		]
-	});
+	// $(".product-slider").slick({
+	// 	slidesToShow: 3,
+	// 	slidesToScroll: 1,
+	// 	prevArrow: $(".slide-left"),
+	// 	nextArrow: $(".slide-right"),
+	// 	dots: false,
+	// 	autoplay: true,
+	// 	autoplaySpeed: 7000,
+	// 	pauseOnHover: true,
+	// 	responsive: [
+	// 	{
+	// 		breakpoint: 992,
+	// 		settings: {
+	// 			slidesToShow: 3
+	// 		}
+	// 	},
+	// 	{
+	// 		breakpoint: 768,
+	// 		settings: {
+	// 			slidesToShow: 2
+	// 		}
+	// 	},
+	// 	{
+	// 		breakpoint: 480,
+	// 		settings: {
+	// 			slidesToShow: 1
+	// 		}
+	// 	},
+	// 	]
+	// });
 
 	// Content Slider - Testimony
-	$(".content-slider").slick({
-		vertical: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		prevArrow: $(".content-left"),
-		nextArrow: $(".content-right"),
-		dots: false,
-		autoplay: true,
-		autoplaySpeed: 7000,
-		pauseOnHover: true,
-	});
+	// $(".content-slider").slick({
+	// 	vertical: true,
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	prevArrow: $(".content-left"),
+	// 	nextArrow: $(".content-right"),
+	// 	dots: false,
+	// 	autoplay: true,
+	// 	autoplaySpeed: 7000,
+	// 	pauseOnHover: true,
+	// });
 
 	// Range Feet
 	// $("#sale-range-feet, #rent-range-feet, #book-range-feet").ionRangeSlider({

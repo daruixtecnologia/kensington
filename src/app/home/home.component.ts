@@ -29,10 +29,21 @@ export class HomeComponent implements OnInit {
   slides: string[] = [
     '1', '2', '3', '4', '5'
   ];
-  slideConfig = {'slidesToShow': 4, 'slidesToScroll': 4,  'prevArrow': '.slide-left', 'nextArrow': '.slide-right'};
-  slideTestConfig = {
+
+
+  slidesTest: string[] = [
+    '1', '2', '3', '4', '5'
+  ];
+  slideConfig = {
+    'slidesToShow': 3,
+    'slidesToScroll': 1,
     'prevArrow': '.slide-left',
-    'nextArrow': '.slide-right',
+    'nextArrow': '.slide-right'
+  };
+
+  slideTestConfig = {
+    'prevArrow': '.content-left',
+    'nextArrow': '.content-right',
     'slidesToShow': 2,
     'slidesToScroll': 1,
     'vertical': true};
